@@ -41,8 +41,8 @@ The purpose of the analysis is to help Steve analyse the entire stock market ove
 	 1. Before refractoring, we used the first loop 12 times to loop thtough all the rows to calculate the total Volume, startingPrice and endingPrice.	
 	 2. Post refractoring, we used a single loop, but had a condition to increment the ticker Index which iterated through the 3 array loops to get output arrays.
 * We got 3 arrays as output of totalvolumes, startingPrices and endingPrices which **would retain the values** as against prior to refractoring; where we got varibales as output and would lose the values everytime the ticker would change.
-* Using single loop to get the output arrays **improved the logic and design of the code by **reducing repitition of calculation** as against the pre refractored code. 
-* Refractored code was easy to understand in terms of logic with better readability.
+* Using single loop to get the output arrays **improved the logic and design of the code** by **reducing repitition of calculation** as against the pre refractored code. 
+* Refractored code was **easy to understand in terms of logi**c with **better readability**.
 
 #### **Disadvantages of Refractoring the original VBA script**
 * Refractored code **consumed more memory** for storing the output values in array and would be **more expensive**.
